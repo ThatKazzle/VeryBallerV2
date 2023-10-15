@@ -1,0 +1,4 @@
+name: veryballer
+version: '${version}'
+main: org.enchanted.veryballer.Veryballer
+api-version: '1.20'
