@@ -69,7 +69,6 @@ public class Veryballer extends JavaPlugin implements Listener {
                 if (itemInHand != null && !itemInHand.getType().equals(Material.AIR) && itemInHand.getEnchantmentLevel(Enchantment.DAMAGE_ALL) <= Enchantment.DAMAGE_ALL.getMaxLevel()) {
                     itemInHand.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, itemInHand.getEnchantmentLevel(Enchantment.DAMAGE_ALL) + 1);
                 }
-
                 // Remove the "Wildcard" book from the player's offhand
                 player.getInventory().setItemInOffHand(null);
             }
